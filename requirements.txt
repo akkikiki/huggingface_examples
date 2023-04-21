@@ -1,3 +1,4 @@
 transformers
 accelerate
 bitsandbytes
+sentencepiece
