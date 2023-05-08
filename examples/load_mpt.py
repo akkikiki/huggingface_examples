@@ -11,7 +11,7 @@ tmp_text = []
 with open(filename, errors="replace") as f:
     for line in f:
         tmp_text.append(line)
-        if len(tmp_text) > 750:
+        if len(tmp_text) > 500:
             break
 text = "".join(tmp_text)
 text = text.replace("THE END", "EPILOGUE")
