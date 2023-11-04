@@ -1,4 +1,7 @@
+scipy
+torch
 transformers
 accelerate
 bitsandbytes
 sentencepiece
+ipdb
