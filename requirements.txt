@@ -5,3 +5,6 @@ accelerate
 bitsandbytes
 sentencepiece
 ipdb
+datasets
+trl
+wandb
