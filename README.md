@@ -13,3 +13,9 @@ pip install -r requirements.txt
 ```
 
 Don't forget to set `export HF_HOME=YOUR_CACHE_DIR` when using volume storage.
+
+## MLX Examples
+
+MLX is Apple's machine learning framework optimized for Apple Silicon. Examples of loading models with MLX are under `mlx` dir.
+
+```
