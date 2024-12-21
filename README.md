@@ -1,7 +1,12 @@
 # huggingface_examples
 
-Examples of Huggingface Transformers, Accelerate, and PEFT code mainly for my educational purpose.
+Examples of Huggingface Transformers, Accelerate, PEFT, and MLX code mainly for my educational purpose.
 Hope it helps somebody :)
+
+## Examples
+
+### MLX Examples for Mac
+- `examples/load_llama_mlx.py`: Example of running Llama models efficiently on Mac using the MLX library
 
 
 ## Environment Setup

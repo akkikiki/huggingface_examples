@@ -8,3 +8,5 @@ ipdb
 datasets
 trl
 wandb
+mlx
+mlx-lm
