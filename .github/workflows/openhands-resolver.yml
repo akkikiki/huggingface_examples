@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   call-openhands-resolver:
-    uses: akkikiki/huggingface_examples/.github/workflows/openhands-resolver_org.yml@main
+    uses: akkikiki/huggingface_examples/example_workflows/openhands-resolver_org.yml@main
     with:
       macro: ${{ vars.OPENHANDS_MACRO || '@openhands-agent' }}
       max_iterations: ${{ fromJson(vars.OPENHANDS_MAX_ITER || 50) }}
