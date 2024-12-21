@@ -8,3 +8,8 @@ ipdb
 datasets
 trl
 wandb
+
+# Optional: MLX dependencies for Mac/Apple Silicon
+mlx>=0.3.0 ; sys_platform == 'darwin' and platform_machine == 'arm64'
+mlx-lm>=0.0.3 ; sys_platform == 'darwin' and platform_machine == 'arm64'
+mlx-vlm>=0.0.2 ; sys_platform == 'darwin' and platform_machine == 'arm64'
