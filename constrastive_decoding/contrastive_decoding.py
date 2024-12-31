@@ -911,8 +911,3 @@ def _relative_top_filter(
     return scores_normalized, baseline_scores_normalized
 
 
-def hijack_generation():
-    # transformers.GenerationMixin.generate_contrastive = generate
-    transformers.GenerationMixin = ContrastiveGenerationMixin
-    transformers.LlamaForCausalLM
-    transformers.GenerationConfig.__init___old = transformers.GenerationConfig.__init__

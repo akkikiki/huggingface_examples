@@ -1,12 +1,8 @@
 from transformers import AutoTokenizer, set_seed
 from accelerate.test_utils.testing import get_backend
 
-from contrastive_decoding import (
-    hijack_generation,
-    ContrastiveLlamaForCausalLM,
-)
+from contrastive_decoding import ContrastiveLlamaForCausalLM
 import torch
-
 
 
 messages = [
@@ -16,7 +12,6 @@ messages = [
     },
     {"role": "user", "content": "How many helicopters can a human eat in one sitting?"},
 ]
-hijack_generation()
 
 main_model = "meta-llama/Llama-3.2-1B-Instruct"
 tokenizer = AutoTokenizer.from_pretrained(main_model)
